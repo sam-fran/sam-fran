@@ -2,6 +2,21 @@ body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: burlywood;
 }
-#header > *{
-    height: 5vh;
+header{
+    display: flex;
+}
+#icon{
+    height:10vh;
+}
+#main-title{
+    position:relative;
+    left:1vh;
+}
+#main-container{
+    position:fixed;
+    top:11vh;
+    left:-5px;
+    width:100vw;
+    height:89vh;
+    border: 3px solid;
 }

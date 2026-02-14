@@ -13,15 +13,26 @@ header{
 }
 #main-title{
     position:fixed;
-    left:14vh;
+    left:7vw;
+    top:1.5vh
 }
 #main-container{
     position:fixed;
     top:10vh;
-    left:-1vh;
+    left:-1vw;
     width:101vw;
     height:90vh;
-    border: 3px solid;
+    border: .5vh solid;
     padding:1vh;
     padding-left: 2vh;
+}
+#links{
+    position:fixed;
+    border:.5vh solid;
+    left:30vw;
+    height: 6vh;
+    width: 65vw;
+    padding:0.5vh;
+    padding-left:1vw;
+    padding-right:1vw;
 }

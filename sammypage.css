@@ -16,7 +16,12 @@ header{
     position:fixed;
     top:11vh;
     left:-5px;
-    width:100vw;
+    width:101vw;
     height:89vh;
     border: 3px solid;
+    padding-left: 10px;
+}
+#main-container textarea{
+    width: 90vh;
+    height: 40vh;
 }

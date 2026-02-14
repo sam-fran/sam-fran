@@ -6,23 +6,22 @@ header{
     display: flex;
 }
 #icon{
+    position: fixed;
     height:10vh;
+    top:0px;
+    left:0px;
 }
 #main-title{
-    position:relative;
-    left:1vh;
+    position:fixed;
+    left:14vh;
 }
 #main-container{
     position:fixed;
-    top:11vh;
+    top:10vh;
     left:-1vh;
     width:101vw;
-    height:89vh;
+    height:90vh;
     border: 3px solid;
     padding:1vh;
     padding-left: 2vh;
-}
-#main-container textarea{
-    width: 90vh;
-    height: 40vh;
 }

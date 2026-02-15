@@ -35,4 +35,5 @@ header{
     padding:0.5vh;
     padding-left:1vw;
     padding-right:1vw;
+    overflow:scroll;
 }

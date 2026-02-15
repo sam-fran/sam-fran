@@ -29,7 +29,7 @@ header{
 #links{
     position:fixed;
     border:.5vh solid;
-    left:30vw;
+    right:0.75vh;
     height: 6vh;
     width: 65vw;
     padding:0.5vh;

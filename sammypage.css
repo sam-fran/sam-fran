@@ -6,34 +6,37 @@ header{
     display: flex;
 }
 #icon{
-    position: fixed;
+    position: static;
     height:10vh;
     top:0px;
     left:0px;
+    margin-right: 2vh;
 }
 #main-title{
-    position:fixed;
-    left:7vw;
-    top:1.5vh
-}
-#main-container{
-    position:fixed;
-    top:10vh;
-    left:-1vw;
-    width:101vw;
-    height:90vh;
-    border: .5vh solid;
-    padding:1vh;
-    padding-left: 2vh;
+    position:relative;
+    line-height:0px;
+    top: 4vh;
+    min-width: 300px;
 }
 #links{
-    position:fixed;
+    margin:2vh;
+    position: relative;
     border:.5vh solid;
-    right:0.75vh;
     height: 6vh;
     width: 65vw;
     padding:0.5vh;
     padding-left:1vw;
     padding-right:1vw;
     overflow:scroll;
+}
+#main-container{
+    position:fixed;
+    top:10vh;
+    left:-3vw;
+    width:101vw;
+    height:90vh;
+    border: .5vh solid;
+    padding:1vh;
+    padding-left: 4vh;
+    margin: 2vh;
 }

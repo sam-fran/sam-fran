@@ -17,28 +17,35 @@ header{
 #main-title{
     position:relative;
     line-height:0px;
-    top: 0px;
+    top: 20px;
     min-width: 300px;
 }
 #links{
     margin:2vh;
     position: relative;
-    border:.5vh solid;
+    border: 5px solid;
     height: 6vh;
     width: 65vw;
     padding:0.5vh;
     padding-left:1vw;
     padding-right:1vw;
-    overflow:scroll;
+    display:inline-flex
+}
+#links h2{
+    line-height: 0px;
+}
+#As{
+    position: relative;
+    top:1.25vh;
+    left:1.5vh;
 }
 #main-container{
     position:fixed;
-    top:10vh;
-    left:-3vw;
+    top:12vh;
+    left:1vw;
     width:101vw;
     height:90vh;
-    border: .5vh solid;
+    border: 5px solid;
     padding:1vh;
-    padding-left: 4vh;
     margin: 2vh;
 }

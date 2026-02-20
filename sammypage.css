@@ -1,7 +1,14 @@
 body{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: burlywood;
-    cursor: url(cursor_smaller.png) 0 0, auto;
+    cursor: url(cursors/blue_target_cursor.png) 0 0;
+    visibility: hidden;
+}
+img:not(#icon){
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
 }
 header{
     display: flex;
